@@ -46,6 +46,8 @@ h3 {
 
 p {
     font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     line-height: 28px;
     max-width: 70%;
 }
@@ -83,6 +85,7 @@ li a:hover {
 }
 
 /* Work Section */
+
 .work {
     padding: 20px;
     background-color: #333132;
@@ -114,6 +117,16 @@ li a:hover {
     float: center;
 }
 
+.title a {
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+.title p {
+    line-height: 0px;
+}
+
 /* Image Fade on Hover */
 
 .fade img{
@@ -141,24 +154,15 @@ h3:hover {
     color: #db9f88;
 }
 
-.title a {
-    text-align: left;
-    line-height: 5px;
-    text-decoration: none;
-    color: #fff;
-}
-.title p {
-    line-height: 5px;
-}
-
   /* Contact Section */
 .contact {
-   padding: 20px;
+   padding: 50 20px;
    color: #333132;
 }
 
 .contact ul {
     font-size: 22px;
+    padding-top: 30px;
 }
 
 
@@ -176,12 +180,12 @@ a {
 
   /* Footer Section */
 .footer {
-    padding: 20px;
+
 }
 
 
 .footer h2 {
-  font-size: 20px;
+  font-size: px;
 }
 
 
