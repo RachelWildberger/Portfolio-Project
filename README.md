@@ -12,7 +12,7 @@ Website portfolio has included;
 - contact section with multiple ways to contact developer
 - responsive application for various sizes
 
-![Portfolio Desktop View](assets/images/Portfolio-Project-Desktop.png)
+![Portfolio Desktop View](./assets/images/Portfolio-Project-Desktop.png)
 
 ## Installation
 
