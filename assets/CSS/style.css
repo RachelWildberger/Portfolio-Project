@@ -1,0 +1,283 @@
+* {
+    font-family: 'proxima_novaregular', Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    margin: 40px;
+    background-color: #f4f2ef;
+}
+
+
+.header {
+    display: flex ;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+
+.heading {
+  display: flex;
+}
+.header img {
+    height: 110px;
+    width: auto;
+    margin-top: 0px;
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 44px;
+    line-height: 40px;
+    color: #333132;
+    font-family: 'albrabold', serif;
+    margin-left: 20px;
+}
+
+
+h2 {
+    font-size: 34px;
+    font-family: 'albrabold', serif;
+}
+
+
+h3 {
+    font-size: 28px;
+    line-height: 10px;
+    font-family: 'albra_textregular', serif;
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 70%;
+}
+
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+
+ul { 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li {
+    display: inline;
+}
+
+
+li a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #333132;
+}
+
+
+li a:hover {
+    color: #db9f88;
+  }
+
+
+/* About Section */
+.about {
+    padding: 20px;
+    color: #333132;
+}
+
+/* Work Section */
+.work {
+    padding: 20px;
+    background-color: #333132;
+    color:#ffffff
+}
+
+.work p{
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 70%;
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.main {
+    float: center;
+    width: 100%;
+
+}
+
+.main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: center;
+
+}
+
+
+/* Image Fade on Hover */
+
+.fade img{
+    opacity:1;
+    transition: 1s ease;
+}
+    
+.fade img:hover{
+    opacity:0.5;
+    transition: 1s ease;
+
+}
+
+.column {
+    float: center;
+    width: 50%;
+}
+
+.column img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h3:hover {
+    color: #db9f88;
+}
+
+.title a {
+    text-align: left;
+    line-height: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.title p {
+    line-height: 5px;
+}
+
+
+  /* Contact Section */
+.contact {
+   padding: 20px;
+   color: #333132;
+}
+
+.contact ul {
+    font-size: 22px;
+}
+
+
+a:hover {
+    color: #db9f88;
+}
+
+a {
+    text-align: left;
+    padding: 5px;
+    text-decoration: underline;
+    color: #333132;
+}
+
+
+  /* Footer Section */
+.footer {
+    padding: 20px;
+}
+
+
+.footer h2 {
+  font-size: 20px;
+}
+
+
+  /* Responsive */
+@media screen and (max-width: 768px) {
+    nav ul{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+      max-width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+  .main {
+      width: 100%;
+      height: auto;
+  }
+}
+
+
+  /* Custom Fonts */
+
+@font-face {
+  font-family: 'albrabold';
+  src: url('albra_bold-webfont.woff2') format('woff2'),
+       url('albra_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'albramedium';
+  src: url('albra_medium-webfont.woff2') format('woff2'),
+       url('albra_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'albraregular';
+  src: url('albra_regular-webfont.woff2') format('woff2'),
+       url('albra_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'albra_textregular';
+  src: url('albra_text_regular-webfont.woff2') format('woff2'),
+       url('albra_text_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'proxima_novaregular';
+  src: url('proximanova-regular-webfont.woff2') format('woff2'),
+       url('proximanova-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
