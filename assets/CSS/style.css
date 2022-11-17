@@ -21,11 +21,10 @@ body {
 .header img {
     height: 110px;
     width: auto;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 
 .header h1 {
-    display: inline-block;
     font-size: 44px;
     line-height: 40px;
     color: #333132;
@@ -57,11 +56,6 @@ nav {
     display: flex;
     justify-content: flex-end;
     font-size: 20px;
-}
-
-ul { 
-    margin: 0px;
-    padding: 0px;
 }
 
 li {
@@ -130,7 +124,7 @@ li a:hover {
 /* Image Fade on Hover */
 
 .fade img{
-    opacity:1;
+    opacity: 1;
     transition: 1s ease;
 }
     
@@ -182,12 +176,6 @@ a {
 .footer {
     padding: 20px;
 }
-
-
-.footer h2 {
-  font-size: px;
-}
-
 
   /* Responsive */
 @media screen and (max-width: 768px) {
